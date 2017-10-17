@@ -1,0 +1,33 @@
+{
+  "name": "imdb-rating",
+  "version": "1.0.0",
+  "description": "Movie finder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zohaib10/IMDB-Rating.git"
+  },
+  "author": "Zohaib Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zohaib10/IMDB-Rating/issues"
+  },
+  "homepage": "https://github.com/zohaib10/IMDB-Rating#readme",
+  "devDependencies": {
+    "browserify": "*",
+    "flux": "*",
+    "gulp": "^3.9.1",
+    "object-assign": "*",
+    "reactify": "*",
+    "vinyl-source-stream": "*"
+  },
+  "dependencies": {
+    "omdb": "^0.8.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "xml2js": "^0.4.19"
+  }
+}
